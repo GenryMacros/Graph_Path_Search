@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Graph">
+      <UniqueIdentifier>{595ef624-e701-411c-ba2f-2b29cf80bcdd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main">
+      <UniqueIdentifier>{602ca241-8cf9-4428-8902-4c2d5f8f16f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Structures">
+      <UniqueIdentifier>{92454a34-983e-47a4-aa6d-41243695d016}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Events">
+      <UniqueIdentifier>{d7fac99b-ed7d-42b7-8c31-3f01d3f9ee9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI">
+      <UniqueIdentifier>{315befa7-9ffb-4b52-a0f2-9eee71edb991}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Graph%28Generation%29.cpp">
+      <Filter>Graph</Filter>
+    </ClCompile>
+    <ClCompile Include="Graph(Search).cpp">
+      <Filter>Graph</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphSearch.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="MouseEvent.cpp">
+      <Filter>Events</Filter>
+    </ClCompile>
+    <ClCompile Include="Graph(SearchWave).cpp">
+      <Filter>Graph</Filter>
+    </ClCompile>
+    <ClCompile Include="UI_Panel.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Graph(Drawings).cpp">
+      <Filter>Graph</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Graph.h">
+      <Filter>Graph</Filter>
+    </ClInclude>
+    <ClInclude Include="List.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="MouseEvent.h">
+      <Filter>Events</Filter>
+    </ClInclude>
+    <ClInclude Include="UI_Panel.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
